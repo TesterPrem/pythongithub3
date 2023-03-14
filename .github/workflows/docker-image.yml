@@ -24,7 +24,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: TesterPrem/pythongithub3@v2
+        uses: actions/pythongithub3@v2
         with:
           who-to-greet: 'KM PREMANANDH'
       # Use the output from the `hello` step
